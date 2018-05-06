@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="CONFIRM"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="#fff"
+        android:alpha=".6" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:id="@+id/cName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Name"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/cLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cName"
+                android:layout_alignBottom="@+id/cName"
+                android:layout_toEndOf="@+id/cName"
+                android:text="LastName"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:paddingLeft="6dp"/>
+
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/cPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="Phone"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/cAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="Age"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/cGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="Gender"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#292929"
+        android:textColor="#fff"
+        android:text="NEXT >"
+        android:onClick="goToGame"/>
+
+
+</LinearLayout>

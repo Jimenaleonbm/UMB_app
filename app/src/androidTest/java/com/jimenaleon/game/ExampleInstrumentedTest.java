@@ -1,4 +1,4 @@
-package com.jimenaleon.umbapp;
+package com.jimenaleon.game;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.jimenaleon.umbapp", appContext.getPackageName());
+        assertEquals("com.jimenaleon.game", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package com.jimenaleon.umbapp;
+package com.jimenaleon.game;
 
 import org.junit.Test;
 
